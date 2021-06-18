@@ -21,7 +21,7 @@
               "apps/reacting-to-rxjs/src/favicon.ico",
               "apps/reacting-to-rxjs/src/assets"
             ],
-            "styles": ["apps/reacting-to-rxjs/src/styles.scss"],
+            "styles": ["./node_modules/@nebular/theme/styles/prebuilt/dark.css", "apps/reacting-to-rxjs/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -122,6 +122,7 @@
     }
   },
   "cli": {
+    "analytics": false,
     "defaultCollection": "@nrwl/angular"
   },
   "schematics": {
